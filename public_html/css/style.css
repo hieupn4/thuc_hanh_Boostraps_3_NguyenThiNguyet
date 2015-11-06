@@ -8,3 +8,8 @@ and open the template in the editor.
     Author     : PhamNgocHieu
 */
 
+.header
+{
+  background-image: url(../image/backround_header.jpg);
+  background-repeat: no-repeat;
+}
