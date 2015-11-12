@@ -128,6 +128,23 @@ and open the template in the editor.
 	color: #5a5a5a;
 	text-shadow: 1px 1px 1px #fff;
 }
+.carousel-control
+{
+    position: static;
+}
+.carousel-indicators
+{
+    position: static;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    left:auto;
+    width:33.33%;
+}
+.carousel_bootom_next
+{  
+  text-align: right;
+}
 .clearfix
 {
     clear: both;
