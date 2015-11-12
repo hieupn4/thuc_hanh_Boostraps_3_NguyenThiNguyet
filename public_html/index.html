@@ -17,16 +17,30 @@ and open the template in the editor.
     <body>
         <div class="container">
             <div class="row header">
-                <div class="col-md-8 col-xs-12 col-sm-12">
-                    <img src="image/logo.jpg" class="img-responsive">
-                </div>
-                <div class="col-md-4 col-xs-12 col-sm-12">
+                <div class="header_status col-md-4 col-xs-12 col-sm-12">
                         <div class="row">
-                            <div class="col-md-12 col-xs-12 col-sm-12" ></div>
-                            <div class="col-md-12 col-xs-12 col-sm-12" ></div>
-                            <div class="col-md-12 col-xs-12 col-sm-12" ></div>
+               
+                                <ul class="header_status_menutop col-md-12 col-xs-12 col-sm-12 nav navbar-nav">
+                                    <li><a href="#">Om Viivaa</a></li>
+                                    <li><a href="#">Hjælp</a></li>
+                                    <li><a href="#">Kontakt</a></li>
+                                </ul>
+                            
+                            <div class="header_status_menusearch col-md-12 col-xs-12 col-sm-12 jumbotron" >
+                                <input type="text" name="searchValue">
+                                <a href="#"><img src="image/row.jpg" alt=""></a>
+                            </div>
+                            <div class="header_status_menucontact col-md-12 col-xs-12 col-sm-12" >
+                                <span>Indkhbskurv</span>
+                                <span>(13)6.148,20 kr.</span>
+                                
+                            </div>
                         </div>
                 </div>
+                <div class="header_logo col-md-8 col-xs-12 col-sm-12">
+                    <img src="image/logo.jpg" class="img-responsive">
+                </div>
+                
             </div>
             <ul class="nav navbar-nav row">
                 <li class="col-xs-12"><a data-toggle="collapse" href="#" data-target="#menu1">mit viivaa</a>
@@ -75,11 +89,90 @@ and open the template in the editor.
                 </li>
             </ul>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-9 jumbotron">
-                    
+
+                <div id="myCarousel" class="carousel slide col-xs-12 col-sm-12 col-md-9" data-ride="carousel">
+
+                     <div class="row">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner col-md-12 col-xs-12 col-sm-12" role="listbox">
+                            <div class="item active row">
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <img src="image/cogai_02.jpg" alt="Chania">
+                                </div>
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <h1>Skiøvelser til hjemmet</h1>
+                                    <p>Ved at lave forskellige skiøvelser 2-3 måneder før du drager på skiferie, kan du forberede din krop på de strabadser en skiferie byder på. Se hvilke skiøvelser du kan lave derhjemme i...</p>
+                                    <a>Læs mere her</a>
+                                </div>
+
+                            </div>
+
+                            <div class="item row">
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <img src="image/cogai_02.jpg" alt="Chania">
+                                </div>
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <h1>Skiøvelser til hjemmet</h1>
+                                    <p>Ved at lave forskellige skiøvelser 2-3 måneder før du drager på skiferie, kan du forberede din krop på de strabadser en skiferie byder på. Se hvilke skiøvelser du kan lave derhjemme i...</p>
+                                    <a>Læs mere her</a>
+                                </div>
+
+                            </div>
+
+                            <div class="item row">
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <img src="image/cogai_02.jpg" alt="Chania">
+                                </div>
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <h1>Skiøvelser til hjemmet</h1>
+                                    <p>Ved at lave forskellige skiøvelser 2-3 måneder før du drager på skiferie, kan du forberede din krop på de strabadser en skiferie byder på. Se hvilke skiøvelser du kan lave derhjemme i...</p>
+                                    <a>Læs mere her</a>
+                                </div>
+
+                            </div>
+
+                            <div class="item row">
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <img src="image/cogai_02.jpg" alt="Chania">
+                                </div>
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <h1>Skiøvelser til hjemmet</h1>
+                                    <p>Ved at lave forskellige skiøvelser 2-3 måneder før du drager på skiferie, kan du forberede din krop på de strabadser en skiferie byder på. Se hvilke skiøvelser du kan lave derhjemme i...</p>
+                                    <a>Læs mere her</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div> 
+                    <div class="row"> 
+                       <div class="col-md-4 col-xs-4 col-sm-4">
+                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                
+                                <image src="image/pre.jpg" alt="">
+                           
+                            </a>
+                        </div> 
+             
+                        <!-- Indicators -->
+                       <ol class="carousel-indicators col-md-4 col-xs-4 col-sm-4">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol> 
+                        <!-- Left and right controls -->
+                        <div class="col-md-4 col-xs-4 col-sm-4">
+                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                <image src="image/next.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-3 jumbotron">
-                    
+
                 </div>
             </div> 
             <div class="row">
