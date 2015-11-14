@@ -293,5 +293,191 @@ and open the template in the editor.
     padding-top: 10px;
     margin-bottom: 10px;
 }
-
-
+.container_row7>div>div>h1
+{
+   font-family: EurostileLT;
+	font-size: 26px;
+	color: #5ab900; 
+        height: 45px;
+        padding-left: 60px;
+        padding-top:10px;
+}
+.kost
+{
+    background-image:url('../image/kost.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+.motion
+{
+   background-image:url('../image/motion.jpg');
+   background-repeat: no-repeat;
+   background-position-x: 0px;
+   background-position-y: 0px;
+}
+.rygning
+{
+    background-image:url('../image/rygning.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+.veagttab
+{
+    background-image: url('../image/vegatab.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+.born
+{
+    background-image:url('../image/born.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+.arbe
+{
+    background-image:url('../image/arbej.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+.container_row7>div>div>h2
+{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+.container_row7>div>div>p
+{
+    font-family: Arial;
+    font-size: 12px;
+}
+.container_row7>div>div>h3
+{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 0.1;
+}
+.container_row7>div>div>a
+{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #5ab900;
+    text-decoration: underline;
+    line-height: 4;
+}
+.container_row7>div>div>h3>a
+{
+    color:#5ab900;
+}
+.container_row8
+{
+    background-color: #595959;
+    text-align: center;
+}
+.container_row8>p
+{
+    color:#fff;
+    font-weight: bold;
+    font-family: Arial;
+}
+.panel-default > .panel-heading
+{
+   background-color: #9cd714;
+}
+.container_row6
+{
+   background-image: url('../image/background_banner.jpg');
+   background-size: cover;
+   padding: 10px; 
+}
+.container_row6>div
+{
+   padding: 0px; 
+}
+div.panel-heading>p
+{
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.panel-body>div>div.dot
+{
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    border-top-style: dotted;
+    border-top-width: 1px;
+    background-image: url('../image/message.jpg');
+    background-repeat: no-repeat;
+    background-position: 0px 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.panel-body>div>div.dot a
+{
+    text-decoration: none;
+    display: inline-block;
+    color: #3c3c3c;
+}
+.panel-body>div>div.dot>p
+{
+    display: inline-block;
+    float:right;
+    color: #ff8c26;
+}
+.panel-body>div>h1
+{
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+}
+.panel-body>div>p
+{
+  font-family: Arial;
+  font-size: 12px;
+}
+.panel-body>div>div.dot>p>a
+{
+    color: #ff8c26;
+}
+.panel-body>p>a
+{  
+  color:#5ab900;
+  text-decoration: underline;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 12px;
+}
+.panel-body>p
+{  
+  margin-top: 18px;
+}
+.panel-body>ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.panel-body>ul>li
+{
+    display: inline-block;  
+}
+.have_line
+{ 
+    border-left-style: solid;
+    border-left-color: #000;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-color:#000;
+    border-right-width: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
