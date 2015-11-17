@@ -279,6 +279,18 @@ and open the template in the editor.
     padding-bottom:10px;
     
 }
+.container_row5>div>div>div>h1
+{
+    font-family: Myriad Pro;
+    font-size: 34px;
+    font-weight: Regular;
+}
+.container_row5>div>div>div>h2
+{
+    font-family: Arial;
+    font-size:14px;
+    font-weight:bold;
+}
 .container_row7
 {
    background-image: url('../image/background_banner.jpg');
@@ -480,4 +492,40 @@ div.panel-heading>p
     border-right-width: 1px;
     padding-right: 5px;
     padding-left: 5px;
+}
+.use_float
+{
+    border-style: solid;
+    border-color: #94d201;
+    border-width: 2x;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top: 10px;
+    padding-top: 10px;
+  
+}
+.use_float>div>div
+{
+    display: inline-block;
+    float: left;
+    margin-right: 18px;
+    margin-bottom: 5px;
+    //margin-top: 10px;
+}
+.use_float>div>h1
+{
+    line-height: 0.5;
+    text-align: justify;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.use_float>div>p
+{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: Regular;
 }
