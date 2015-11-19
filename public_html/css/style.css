@@ -755,6 +755,21 @@ div.panel-heading>p
         height: 153px;
         padding-left:29px;
     }
+    div.container_row5
+    {
+        padding-bottom: 22px;
+    }
+    div.container_row6>div.container_row6_contentright
+    {
+        position: relative;
+    }
+    div.container_row6>div.container_row6_contentright>img
+    {
+        position: absolute;
+        top: -10px;
+        right:10px 
+        
+    }
     div.container_row5>div
     {
         padding: 10px;
@@ -785,5 +800,70 @@ div.panel-heading>p
         font-weight: regular;
         color: #5a5a5a;
     }
-    
+    div.container_row7>div
+    {
+        width: 460px;
+        padding-left:22px;
+        padding-right:22px;
+    }
+    div.container_row7>.content-right
+    {
+        float: right;
+    }
+    div.container_row8
+    {
+        height: 61px;
+        background-image:url(../image/background_footed.jpg);
+        background-repeat:repeat-x; 
+        padding-top: 10px;
+    }
+    div.container_row8>div
+    {
+        display: inline-block;
+    }
+    div.container_row8>p
+    {
+        display:inline;
+        font-family: EurostileLT;
+	      font-size: 12px;
+	      color: #fff;
+        font-weight: bold;
+        position: relative;
+        left: -20%;
+        margin-top:7px
+    }
+    div.container_row7>div
+    {
+        margin: 0px;
+    }
+    div.container_row7
+    {
+        padding-bottom: 27px;
+    }
+    div.container_row6>div.container_row6_contentright
+    {
+        width: 460px;
+        float:right;             
+    }
+    div.use_float
+    {
+        border: none;
+    }
+    div.use_float>div
+    {
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+    div.use_float>div>div
+    {
+        padding:5px;
+        border-radius: 5px;
+    }
+    div.use_float>div>h1
+    {
+        margin-top:13px;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 14px;
+    }
 }
