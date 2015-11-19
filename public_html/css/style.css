@@ -154,6 +154,10 @@ and open the template in the editor.
     padding-right: 10px;
     padding-top: 10px;
 }
+.store_image~h1,.store_image~p,.store_image~a
+    {
+        display: none;
+    }
 .carousel_bootom
 { 
     background-image: url('../image/bg_pre_next.jpg');
@@ -528,4 +532,258 @@ div.panel-heading>p
     font-family: Arial;
     font-size: 12px;
     font-weight: Regular;
+}
+@media screen and (min-width: 992px) {
+  .container
+  {
+     width: 1020px;
+     height: auto;
+     padding-left: 0px;
+     padding-right: 0px;
+  }
+  .row
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  .container>div
+    {
+        padding: 0px;
+        background-image: none;
+        background-color:#f2f2f2;
+        padding-left:40px;
+        padding-right:40px;
+    }
+  .container>div>div
+    {
+        padding: 0px;
+    }
+   .container>div.container_row3
+    {
+        background-image: url('../image/background_desktop.jpg');
+        background-size:cover;
+        height :280px; 
+        padding-left:40px;
+        padding-right:40px;
+        padding-top:21px;
+    }
+   .container_row3>div.container_row3_banerright
+    {
+        width: 220px;
+        height: 240px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        margin-top:0px;
+        float: right;
+    }
+    #myCarousel
+    {
+        width: 700px;
+        height: 240px;
+        background-color: #fff;
+        border-radius: 5px;
+        
+    }
+    #myCarousel div
+    {
+        padding: 0px;
+    }
+    #myCarousel>div.row
+    {
+        height: 195px;
+        background-color:#fff;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #myCarousel>div.carousel_bootom
+    {
+        height: 40px;
+        margin: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #myCarousel .store_image
+    {
+        margin-right: 20px;
+    }
+    .store_image~div
+    {
+        display: none;
+    }
+    .store_image~h1,.store_image~p,.store_image~a
+    {
+        display:inherit;
+        font-family: Arial;
+    }
+    .store_image~h1
+    {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .store_image~a
+    {
+        text-decoration: underline;
+        color: #5ab900;
+        font-weight: bold;
+    }
+    .container>div.container_row4
+    {
+        padding-left: 40px;
+        padding-right:40px;
+        padding-top: 22px;
+        background-color:#f3f3f3;
+        background-image: none;
+    }
+    .container>div.container_row4 div
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+    .container>div.container_row4>div.container_row4_right
+    {
+        float:right;
+        width:218px;
+        height: 240px;
+    }
+    .container_row4>div.container_row4_left
+    {
+        background-color: #f2f2f2;
+    }
+    .container_row4_left>div>div
+    {
+        height: 110px
+    }
+    .container_row4_left>div>div>div>.save-image
+    {
+        background-color:#fff;
+        border-radius: 5px;
+        width:220px;
+        height: 110px;
+        padding:5px;
+    }
+    .container_row4_left div.save-image~div
+    {
+        padding-left: 20px;
+        font-family: Arial;
+        font-size: 12px;
+        
+        
+    }
+    div.save-image~div>h1
+    {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 0.5;
+        margin-top: 10px;
+        color:#3c3c3c;
+    }
+    div.save-image~div>a
+    {
+        color: #8acf00;
+        text-decoration:underline;
+        font-weight: bold;
+    }
+    div.save-image~div>p
+    {
+        margin-bottom:5px;
+        color: #3c3c3c;
+    }
+    .container>div.container_row4>.container_row4_left>div>div
+    {
+        margin-bottom: 20px;
+    }
+    .container>div.container_row4>div.container_row4_right
+    {
+        padding-left: 42px;
+        font-family: Arial;
+    }
+    div.container_row4_right>h1
+    {
+        font-size: 12px;
+        font-weight: bold;
+        padding-left: 5px;
+        margin-bottom: 0px;
+    }
+    div.container_row4_right>h1+p
+    {
+        font-size: 12px;
+        font-weight: regular;
+    }
+    div.container_row4_right>h1+p+img
+    {
+        margin-left: 20px;
+        margin-bottom:20px;
+    }
+    p.special
+    {
+        font-weight: bold;
+        line-height: 0.5;
+    }
+    p.special>span
+    {
+        text-decoration: line-through;
+    }
+    div.container_row4_right>a
+    {
+        display: block;
+        color: #5ab900;
+        text-decoration: underline;
+        border-top-style: dotted;
+        border-top-color: #000;
+        width: 130px;
+        border-top-width: 1px;
+        text-align: center;
+        padding-top: 8px;
+    }
+    div.container>.container_row5
+    {
+        padding-left: 40px;
+        padding-right:40px;
+        background-color: #f2f2f2;
+        background-image:none;
+    }
+    div.container>.container_row5 div
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+    div.container>.container_row5>div
+    {
+        padding: 10px;
+        height: 153px;
+        padding-left:29px;
+    }
+    div.container_row5>div
+    {
+        padding: 10px;
+        height: 153px;
+        padding-left:29px;
+        font-family:Arial;
+    }
+    div.container_row5>div h1
+    {
+        font-family: Myriad Pro;
+        font-size: 34px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #5a5a5a;
+        margin-top: 3px;
+    }
+    div.container_row5>div h2
+    {
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: bold;
+        color: #5a5a5a;
+        margin-top: 5px;
+    }
+    div.container_row5>div p
+    {
+        font-size: 14px;
+        font-weight: regular;
+        color: #5a5a5a;
+    }
+    
 }
