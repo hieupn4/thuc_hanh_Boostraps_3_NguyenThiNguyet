@@ -960,37 +960,77 @@ div.panel-heading>p
         text-shadow: 1px 1px 1px #fff;
         font-weight: bold;
     }
-    ul.navbar-nav
+    div.menu>ul.navbar-nav
     {
        position:relative;
+       width:100%;
+       background-image: url(../image/bgr-menu.jpg);
     }
-    ul.navbar-nav li
+    div.menu>ul.navbar-nav li
     {
        display:inline-block;
        float:left;
        position:static;
     }
-    ul.navbar-nav a
+    div.menu>ul.navbar-nav a
     {
         display: inline-block;
     }
-    ul.navbar-nav>li>ul
+    div.menu>ul.navbar-nav>li>a
+    {
+        padding:0px;
+        margin: 0px;
+        width: 100%;
+        height: 41px;
+        padding-left: 50px;
+        padding-right:17px;
+    }
+    
+    div.menu>ul.navbar-nav>li>ul
     {
         position:absolute;
         display:none;
         top:38px;
         left:0px;
-        width:500px;
+        width:940px;
+        height:29px;
+        list-style-type: circle;
+        
     }
-    ul.navbar-nav>li>ul>li
+    div.menu>ul.navbar-nav>li
+    {
+       height: 41px;
+       border-left-style: solid;
+       border-right-style: solid;
+       border-left-width: 1px;
+       border-right-width: 1px;
+       border-left-color: #bebebf;
+       border-right-color:#eaeaeb;
+     
+    }
+    div.menu>ul.navbar-nav>li>a
+    {
+        font-family: Eurostile;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #848484;
+	text-shadow: 1px 1px 1px #fff;
+        font-weight: bold;
+        padding-top: 12px;
+    }
+    div.menu>ul.navbar-nav>li>ul>li
     {
         display:inline-block;
         float:left;
+        padding-right: 40px;
+        
     }
-    ul.navbar-nav>li:hover>ul
+    div.menu>ul.navbar-nav>li:hover>ul
     {
         display:block;
+        
     }
+    
     div.menu
     {
         height: 60px;
@@ -1026,5 +1066,101 @@ div.panel-heading>p
 	background-image: -o-linear-gradient(bottom, #f2f2f3, #fff 18%);
 	background-image: -ms-linear-gradient(bottom, #f2f2f3, #fff 18%);
 	background-image: linear-gradient(to top, #f2f2f3, #fff 18%);
+        background-image: url('../image/webshop.jpg');
     }
+   div.menu>ul>li>ul
+    {
+       background-image: url(../image/bgr-menu-implixit.jpg);
+       background-repeat: repeat-x;
+       list-style-type: circle;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding-top: 5px;
+    }
+    div.menu>ul>li>ul>li>a
+    {
+        font-family: Arial;
+        font-size: 13px;
+        font-weight: bold;
+        padding-right: 20px;
+    }
+    ul.collapse
+    {
+        list-style-type: circle;
+    }
+    div.menu>ul.navbar-nav>li>a:hover
+    {
+        color: #ff8200;
+    }
+    li.xanh
+    {
+        background: url(../image/mauxanh.png) 20px 12px no-repeat,url(../image/bgr-menu.jpg) right bottom repeat;   
+    }
+    div.menu>ul.navbar-nav>li.xanh>a:hover
+    {
+        background: url(../image/mauxanh.png) 20px 12px no-repeat,url(../image/bgr-click.jpg) right bottom repeat;
+        
+    }
+    li.xanh1
+    {
+        background: url(../image/mauxanh2.png) 20px 12px no-repeat,url(../image/bgr-menu.jpg) right bottom repeat;   
+    }
+    div.menu>ul.navbar-nav>li.xanh1>a:hover
+    {
+        background: url(../image/mauxanh2.png) 20px 12px no-repeat,url(../image/bgr-click.jpg) right bottom repeat;
+        
+    }
+    li.xanh2
+    {
+        background: url(../image/mauxanh3.png) 20px 12px no-repeat,url(../image/bgr-menu.jpg) right bottom repeat;   
+    }
+    div.menu>ul.navbar-nav>li.xanh2>a:hover
+    {
+        background: url(../image/mauxanh3.png) 20px 12px no-repeat,url(../image/bgr-click.jpg) right bottom repeat;
+        
+    }
+    li.xanh3
+    {
+        background: url(../image/mauxanh4.png) 20px 12px no-repeat,url(../image/bgr-menu.jpg) right bottom repeat;   
+    }
+    div.menu>ul.navbar-nav>li.xanh3>a:hover
+    {
+        background: url(../image/mauxanh4.png) 20px 12px no-repeat,url(../image/bgr-click.jpg) right bottom repeat;
+        
+    }
+    div.menu>ul>li.li-special
+    {
+        width: 1px;
+        background-color: #a5a6a6;
+        border: none;
+    }
+    div.menu>ul.navbar-nav>li>ul.collapse
+    {
+       list-style: circle outside;
+    }
+    div.menu>ul.navbar-nav>li>ul>li
+    {
+       background-image: url(../image/circle.jpg);
+       background-position: 0px 5px;
+       background-repeat: no-repeat;
+       padding-left: 15px;
+    }
+    div.panel-body>ul>li>a
+    {
+        color:#3c3c3c;
+    }
+    div.panel-body>ul>li>a.have_color
+    {
+        color:#ff8200;
+    }
+    div.container_row6>div>p>a
+    {
+        font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #5ab900;
+    }
+    
+  
 }
