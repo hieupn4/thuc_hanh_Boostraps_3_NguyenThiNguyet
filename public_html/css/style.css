@@ -153,6 +153,7 @@ and open the template in the editor.
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
+    box-shadow: 0 5px 4px 1px rgba(0,0,0,.12);
 }
 .store_image~h1,.store_image~p,.store_image~a
     {
@@ -250,6 +251,7 @@ and open the template in the editor.
     background-image: url('../image/background_banner.jpg');
     background-size: cover;
     padding: 10px;
+    
 }
 .container_row4_left 
 {
@@ -835,6 +837,12 @@ div.panel-heading>p
     div.container_row7>div
     {
         margin: 0px;
+        box-shadow: 0 0 5px rgba(0,0,0,.1);
+        background-image: -webkit-linear-gradient(bottom, #f2f2f3, #fff 20%);
+	background-image: -moz-linear-gradient(bottom, #f2f2f3, #fff 20%);
+	background-image: -o-linear-gradient(bottom, #f2f2f3, #fff 20%);
+	background-image: -ms-linear-gradient(bottom, #f2f2f3, #fff 20%);
+	background-image: linear-gradient(to top, #f2f2f3, #fff 20%);
     }
     div.container_row7
     {
@@ -951,5 +959,72 @@ div.panel-heading>p
         font-size: 12px;
         text-shadow: 1px 1px 1px #fff;
         font-weight: bold;
+    }
+    ul.navbar-nav
+    {
+       position:relative;
+    }
+    ul.navbar-nav li
+    {
+       display:inline-block;
+       float:left;
+       position:static;
+    }
+    ul.navbar-nav a
+    {
+        display: inline-block;
+    }
+    ul.navbar-nav>li>ul
+    {
+        position:absolute;
+        display:none;
+        top:38px;
+        left:0px;
+        width:500px;
+    }
+    ul.navbar-nav>li>ul>li
+    {
+        display:inline-block;
+        float:left;
+    }
+    ul.navbar-nav>li:hover>ul
+    {
+        display:block;
+    }
+    div.menu
+    {
+        height: 60px;
+        background-image: url(../image/background_menu.jpg);
+        background-repeat: repeat-x;
+    }   
+    div.panel-body
+    {
+        box-shadow: 0 0 5px rgba(0,0,0,.1);
+	border: solid 1px #c8c8c8;
+	background-image: -webkit-linear-gradient(bottom, #f2f2f3, #fff 20%);
+	background-image: -moz-linear-gradient(bottom, #f2f2f3, #fff 20%);
+	background-image: -o-linear-gradient(bottom, #f2f2f3, #fff 20%);
+	background-image: -ms-linear-gradient(bottom, #f2f2f3, #fff 20%);
+	background-image: linear-gradient(to top, #f2f2f3, #fff 20%);
+    }
+    .container_row5>div
+    {
+        box-shadow: 0 0 5px rgba(0,0,0,.1);
+	border: solid 1px #c8c8c8;
+	background-image: -webkit-linear-gradient(bottom, #f2f2f3, #fff);
+	background-image: -moz-linear-gradient(bottom, #f2f2f3, #fff);
+	background-image: -o-linear-gradient(bottom, #f2f2f3, #fff);
+	background-image: -ms-linear-gradient(bottom, #f2f2f3, #fff);
+	background-image: linear-gradient(to top, #f2f2f3, #fff); 
+    }
+    div.container_row4_right
+    {
+        box-shadow: 0 0 5px rgba(0,0,0,.1);
+	border: solid 1px #c8c8c8;
+	background-image: -webkit-linear-gradient(bottom, #f2f2f3, #fff 18%);
+	background-image: -moz-linear-gradient(bottom, #f2f2f3, #fff 18%);
+	background-image: -o-linear-gradient(bottom, #f2f2f3, #fff 18%);
+	background-image: -ms-linear-gradient(bottom, #f2f2f3, #fff 18%);
+	background-image: linear-gradient(to top, #f2f2f3, #fff 18%);
     }
 }

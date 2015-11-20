@@ -11,21 +11,30 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <style>           
+        <style>    
+            body>ul
+            {
+                position:relative;
+            }
             ul>li
             {
                 display: inline-block;
                 float:left;
             }
-            .clearfix
+            ul>li>ul
             {
-                clear: both;
+                display:none;
+                position:absolute;
+                left: 0px;
+                top:30px;
             }
-           
-            body>ul>li.so1:hover ul.yeu
+            ul>li.so1:hover>ul
             {
-             //display:block;
-             background-color: red;             
+                display:block;
+            }
+            ul>li.so2:hover>ul
+            {
+                display:block;
             }
         </style>
         
@@ -33,22 +42,23 @@ and open the template in the editor.
     
     <body>
         <ul>
-            <li class="so1"><a href="#" class="so2">menu1</a></li>
-            <li><a href="#">menu1</a></li>  
-            <li><a href="#">menu1</a></li>
-        </ul>
-        <div class="clearfix"></div>
-        <ul class="yeu">
-            <li><a href="#">menu 2</a></li>
-            <li><a href="#">menu 2</a></li>
-            <li><a href="#">menu 2</a></li>
-        </ul>
-        <div class="clearfix"></div>
-        <ul>
-            <li><a href="#">menu 2</a></li>
-            <li><a href="#">menu 2</a></li>
-            <li><a href="#">menu 2</a></li>
-        </ul>
-       
+            <li class="so1">
+                <a href="#" class="so2">menu1</a>
+                <ul class="yeu1">
+                    <li><a href="#">menu 2</a></li>
+                    <li><a href="#">menu 2</a></li>
+                    <li><a href="#">menu 2</a></li>
+                </ul>
+            </li>
+            <li class="so2">
+                <a href="#">menu1</a>
+                <ul class="yeu2">
+                    <li><a href="#">menu 3</a></li>
+                    <li><a href="#">menu 3</a></li>
+                    <li><a href="#">menu 3</a></li>
+                </ul>
+            </li>  
+            
+        </ul>       
     </body>
 </html>
