@@ -128,6 +128,11 @@ and open the template in the editor.
 	color: #5a5a5a;
 	text-shadow: 1px 1px 1px #fff;
 }
+div.carousel_bootom a.carousel-control
+    {
+        background-image:none;
+        opacity: 1;
+    }
 .carousel-control
 {
     position: static;
@@ -154,6 +159,10 @@ and open the template in the editor.
     padding-right: 10px;
     padding-top: 10px;
     box-shadow: 0 5px 4px 1px rgba(0,0,0,.12);
+}
+div.container_row6_contentright>image
+{
+    display:none;
 }
 .store_image~h1,.store_image~p,.store_image~a
     {
@@ -418,9 +427,13 @@ and open the template in the editor.
 {
    padding: 0px; 
 }
+.container_row6>div.container_row6_contentright>img
+{
+   display:none;
+}
 div.panel-heading>p
 {
-    font-family: "Myriad Pro";
+    font-family: "Serioucity";
     font-size: 14px;
     text-transform: uppercase;
     color: #fff;
@@ -435,8 +448,9 @@ div.panel-heading>p
     background-repeat: no-repeat;
     background-position: 0px 10px;
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 7px;
     padding-bottom: 10px;
+    height: 32px;
 }
 .panel-body>div>div.dot a
 {
@@ -455,6 +469,8 @@ div.panel-heading>p
   font-family: Arial;
   font-size: 14px;
   font-weight: bold;
+  margin-top:10px;
+  margin-bottom: 5px;
 }
 .panel-body>div>p
 {
@@ -535,6 +551,47 @@ div.panel-heading>p
     font-size: 12px;
     font-weight: Regular;
 }
+@media screen and (max-width:768px)
+    {
+        
+        div.menu
+        {
+            margin-left:-15px;
+            margin-right:-15px;
+        }
+        div.menu>ul
+        {
+            margin: 0px;
+            background-color: #9fcfdd;
+            padding-left: 10px;
+            padding-right:10px;
+        }
+        div.menu>ul>li>a
+        {
+           background-color: #9fcfdd;
+            border-style: dotted;
+            border-width: 1px;
+            border-radius: 5px;
+            border-color: #fff;
+            margin:10px;
+   
+        }
+        div.menu>ul>li>ul>li
+        {
+            border-bottom-style: dotted;
+            border-bottom-width: 1px;
+            
+        }
+        
+        .container>div.header .header_status_menusearch
+        {
+          display:none;   
+        }
+        .container>div.header .header_status_menucontact
+        {
+            display:none;
+        }
+    }
 @media screen and (min-width: 992px) {
   .container
   {
@@ -603,8 +660,9 @@ div.panel-heading>p
     {
         height: 40px;
         margin: 0px;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
     }
     #myCarousel .store_image
     {
@@ -723,9 +781,10 @@ div.panel-heading>p
         font-weight: bold;
         line-height: 0.5;
     }
-    p.special>span
+    p.special>span.innho-gach
     {
         text-decoration: line-through;
+        font-weight: normal;
     }
     div.container_row4_right>a
     {
@@ -767,6 +826,7 @@ div.panel-heading>p
     }
     div.container_row6>div.container_row6_contentright>img
     {
+        display:inline-block;
         position: absolute;
         top: -10px;
         right:10px 
@@ -866,6 +926,7 @@ div.panel-heading>p
     {
         padding:5px;
         border-radius: 5px;
+        background-color: #fff;
     }
     div.use_float>div>h1
     {
@@ -1162,5 +1223,19 @@ div.panel-heading>p
 	color: #5ab900;
     }
     
+    .carousel-indicators .active
+    {
+        background-color: #7ec900;
+    }
+    .carousel-indicators li
+    {
+        background-color: #5a5a5a;
+        border:none;
+    }
+    .panel-heading
+    {
+        height: 31px;
+        padding-top:5px;
+    }
   
 }
