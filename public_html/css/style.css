@@ -551,6 +551,26 @@ div.panel-heading>p
     font-size: 12px;
     font-weight: Regular;
 }
+div.save-image~div>h1
+    {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 0.5;
+        margin-top: 10px;
+        color:#3c3c3c;
+    }
+    div.save-image~div>a
+    {
+        color: #8acf00;
+        text-decoration:underline;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    div.save-image~div>p
+    {
+        margin-bottom:5px;
+        color: #3c3c3c;
+    }
 @media screen and (max-width:768px)
     {
         
@@ -592,6 +612,206 @@ div.panel-heading>p
             display:none;
         }
     }
+@media screen and (min-width:769px) and (max-width:991px)
+{
+    .header_status>div
+    {
+        background-image: url(../image/background_top_desktop.jpg) ;
+        background-size: cover;
+    }
+    .header_status_menutop
+    {
+        float:right;
+        width:30%;   
+    }
+    .header_status_menusearch 
+    {
+        clear: both;
+        float: right;
+        width:30%;
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .header_status_menucontact
+    {
+        clear: both;
+        width:40%;
+        float: right;
+        display: block;
+        margin-bottom: 5px;
+    }   
+    div.menu>ul>li>ul
+    {
+       background-image: url(../image/bgr-menu-implixit.jpg);
+       background-repeat: repeat-x;
+       list-style-type: circle;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding-top: 5px;
+    }
+    div.menu>ul>li>ul>li>a
+    {
+        font-family: Arial;
+        font-size: 13px;
+        font-weight: bold;
+        padding-right: 20px;
+    }
+    ul.collapse
+    {
+        list-style-type: circle;
+    }
+    div.menu>ul.navbar-nav>li>a:hover
+    {
+        color: #ff8200;
+    }
+    li.xanh
+    {
+        background: url(../image/mauxanh.png) 20px 12px no-repeat,url(../image/bgr-menu.jpg) right bottom repeat;   
+    }
+    div.menu>ul.navbar-nav>li.xanh>a:hover
+    {
+        background: url(../image/mauxanh.png) 20px 12px no-repeat,url(../image/bgr-click.jpg) right bottom repeat;
+        
+    }
+    li.xanh1
+    {
+        background: url(../image/mauxanh2.png) 20px 12px no-repeat,url(../image/bgr-menu.jpg) right bottom repeat;   
+    }
+    div.menu>ul.navbar-nav>li.xanh1>a:hover
+    {
+        background: url(../image/mauxanh2.png) 20px 12px no-repeat,url(../image/bgr-click.jpg) right bottom repeat;
+        
+    }
+    li.xanh2
+    {
+        background: url(../image/mauxanh3.png) 20px 12px no-repeat,url(../image/bgr-menu.jpg) right bottom repeat;   
+    }
+    div.menu>ul.navbar-nav>li.xanh2>a:hover
+    {
+        background: url(../image/mauxanh3.png) 20px 12px no-repeat,url(../image/bgr-click.jpg) right bottom repeat;
+        
+    }
+    li.xanh3
+    {
+        background: url(../image/mauxanh4.png) 20px 12px no-repeat,url(../image/bgr-menu.jpg) right bottom repeat;   
+    }
+    div.menu>ul.navbar-nav>li.xanh3>a:hover
+    {
+        background: url(../image/mauxanh4.png) 20px 12px no-repeat,url(../image/bgr-click.jpg) right bottom repeat;
+        
+    }
+    div.menu>ul>li.li-special
+    {
+        width: 1px;
+        background-color: #a5a6a6;
+        border: none;
+    }
+    div.menu>ul.navbar-nav>li>ul.collapse
+    {
+       list-style: circle outside;
+    }
+    div.menu>ul.navbar-nav>li>ul>li
+    {
+       background-image: url(../image/circle.jpg);
+       background-position: 0px 5px;
+       background-repeat: no-repeat;
+       padding-left: 15px;
+    }
+    div.menu>ul.navbar-nav
+    {
+       position:relative;
+       width:100%;
+       background-image: url(../image/bgr-menu.jpg);
+    }
+    div.menu>ul.navbar-nav li
+    {
+       display:inline-block;
+       float:left;
+       position:static;
+    }
+    div.menu>ul.navbar-nav a
+    {
+        display: inline-block;
+    }
+    div.menu>ul.navbar-nav>li>a
+    {
+        padding:0px;
+        margin: 0px;
+        width: 100%;
+        height: 41px;
+        padding-left: 50px;
+        padding-right:17px;
+    }
+    
+    div.menu>ul.navbar-nav>li>ul
+    {
+        position:absolute;
+        display:none;
+        top:38px;
+        left:0px;
+        width:100%;
+        height:29px;
+        list-style-type: circle;
+        
+    }
+    div.menu>ul.navbar-nav>li
+    {
+       height: 41px;
+       border-left-style: solid;
+       border-right-style: solid;
+       border-left-width: 1px;
+       border-right-width: 1px;
+       border-left-color: #bebebf;
+       border-right-color:#eaeaeb;
+     
+    }
+    div.menu>ul.navbar-nav>li>a
+    {
+        font-family: Eurostile;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #848484;
+	text-shadow: 1px 1px 1px #fff;
+        font-weight: bold;
+        padding-top: 12px;
+    }
+    div.menu>ul.navbar-nav>li>ul>li
+    {
+        display:inline-block;
+        float:left;
+        padding-right: 20px;
+        
+    }
+    div.menu>ul.navbar-nav>li:hover>ul
+    {
+        display:block;
+    }
+    
+    div.menu
+    {
+        height: 60px;
+        margin-left: -15px;
+        margin-right:-15px;
+        
+    }
+    .container
+    {
+        
+    }
+    body
+    {
+       background-image: url("../image/background_banner.jpg");
+       background-size: cover;
+        
+    }
+    .container_row4,.container_row3,.container_row5,.container_row6,.container_row7,.container_row8
+    {
+     background-image: none;
+    }
+   
+    
+}
 @media screen and (min-width: 992px) {
   .container
   {
